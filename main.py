@@ -1,1 +1,5 @@
-print("Welcome to SWIFT Generator")
+from gui import SwiftMTGUI
+
+if __name__ == "__main__":
+    gui = SwiftMTGUI()
+    gui.run()
